@@ -1,4 +1,5 @@
 import { Typography } from "@mui/material"
+import Map from "./Map"
 
 export default function TiempoReal({coordinates}){
     return(
@@ -15,6 +16,8 @@ export default function TiempoReal({coordinates}){
             <Typography variant="body" component="div" gutterBottom>
                 {coordinates.lng}
             </Typography>
+            <Map location={coordinates}/>
         </>
     )
 }
+

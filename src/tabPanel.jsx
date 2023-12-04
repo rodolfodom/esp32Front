@@ -70,7 +70,7 @@ export default function FullWidthTabs() {
     const theme = useTheme();
     const luces = React.useRef(0)
     const [value, setValue] = React.useState(0);
-    const [location, setLocation] = React.useState({lat: 0, lng: 0})
+    const [location, setLocation] = React.useState({lat: 19.282331040690888, lng: -98.88961544567964})
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
